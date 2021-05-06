@@ -1,0 +1,12 @@
+
+@import "./helpers/global";
+//styling for components
+@import "./components/header";
+@import "./components/footer";
+//Styling for pages
+@import './pages-styling/home';
+@import "./pages-styling/pages";
+@import './pages-styling/contact';
+
+// Styling for Responssiveness
+@import "./responsive-styling/responsive";

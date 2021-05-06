@@ -1,0 +1,29 @@
+.home-section{
+  position: relative;
+  margin-bottom: 4rem;
+  .home-image{
+    width: 100%;
+    img{
+      max-width: 100%;
+      height: auto;
+    }
+  }
+  .links-wrapper{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    .links-lists{
+      li a{
+        color: $black;
+      }
+    }
+    .insta-icon{
+      display: block;
+      margin-top: 10px;
+    }
+  }
+}

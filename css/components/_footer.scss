@@ -1,0 +1,39 @@
+footer {
+  width: 100%;
+  height: auto;
+  padding: 2rem 0 .7rem 0;
+  margin-top: auto;
+  background-color: $footer-color;
+  .insta-logo {
+    max-width: 1220px;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    .insta{
+      a{
+        display: block;
+        color: $white;
+        transition: all .4s ease;
+        &:first-child{
+          margin-bottom: .4rem;
+        }
+        &:hover{
+          text-decoration: underline;
+        }
+      }
+      .icon-wrapper{
+        width: 69px;
+      }
+    }
+    .logo{
+      margin-top: 2px;
+    }
+  }
+  .copyrights {
+    font-size: 1rem;
+    color: $white;
+    text-align: center;
+    margin-top: 2rem;
+  }
+}

@@ -1,0 +1,369 @@
+@media (max-width: 1271px) {
+  .map-container{
+    .soumaya-map{
+      height: 480px;
+    }
+  }
+}
+@media (max-width: 1251px) {
+  .map-container{
+    .ramaela-map{
+      height: 400px;
+    }
+  }
+}
+@media (max-width: 1199.98px) {
+  article{
+    .img-container{
+      left: -2.6rem;
+      top: 8rem;
+      width: 24%;
+      img{
+        max-width: 100%;
+        height: auto;
+      }
+    }
+    .top-texts{
+      width: calc(100% - 20%);
+      margin-left: 20%;
+    }
+    .bottom-texts{
+      margin-top: 3rem;
+    }
+  }
+  .map-container{
+    .ramaela-map{
+      height: 360px;
+    }
+    .soumaya-map{
+      height: 400px;
+    }
+  }
+}
+@media (max-width: 1045px) {
+  .map-container{
+    .rebeca-map{
+      height: 500px;
+    }
+  }
+}
+//Responsive for Medium Screen Sizes
+@media (max-width: 991.98px) {
+  .main{
+    width: 100%;
+    padding: 0 1.4rem;
+  }
+  //Responsive for Header
+  header{
+    .top-header{
+      height: 100px;
+      .logo-container{
+        width: 150px;
+      }
+    }
+  }
+  //Responsive for Footer
+  footer{
+    padding-top: 1.4rem;
+    .insta-logo{
+      width: 100%;
+      padding: 0 1.4rem;
+      .insta{
+        .icon-wrapper{
+          width: 50px;
+        }
+      }
+      .logo{
+        width: 90px;
+        text-align: right;
+      }
+    }
+    .copyrights{
+      margin-top: 1.4rem;
+    }
+  }
+  //Responsive for Pages
+  article{
+    .img-container{
+      left: -.4rem;
+      top: 5rem;
+      width: 27%;
+      img{
+        max-width: 100%;
+        height: auto;
+      }
+    }
+    .top-texts{
+      width: calc(100% - 27%);
+      margin-left: 27%;
+    }
+    .bottom-texts{
+      margin-top: 3rem;
+    }
+  }
+  .map-container{
+    margin-bottom: 6rem;
+    .adina-map{
+      height: 380px;
+    }
+    .ramaela-map{
+      height: 334px;
+    }
+  }
+}
+@media (max-width: 846px) {
+  .map-container{
+    .leonie-map{
+      height: 470px;
+    }
+    .rebeca-map{
+      height: 440px;
+    }
+    .soumaya-map{
+      height: 360px;
+    }
+  }
+}
+//Responsive for small Devices
+@media (max-width: 767.98px) {
+  body{
+    font-size: 1rem;
+  }
+  h1{
+    font-size: 2.4rem;
+  }
+  h2{
+    font-size: 1.8rem;
+  }
+  h3{
+    font-size: 1.5rem;
+  }
+  .main{
+    width: 100%;
+    padding: 0.5rem 1rem;
+  }
+  //Responsive for Header
+  header{
+    padding: .5rem 1rem;
+    .top-header{
+      height: 50px;
+      .toggle-container button {
+        font-size: 2rem;
+        font-weight: 600;
+      }
+      .logo-container{
+        width: 80px;
+      }
+    }
+    .menu{
+      width: 260px;
+      .links-container{
+        padding-top: 1rem;
+        padding-left: 2rem;
+        #close-menu{
+          top: 0.2rem;
+          right: 1rem;
+          font-size: 2.4rem;
+        }
+      }
+    }
+  }
+  //Responsive for Pages
+  article{
+    .img-container{
+      left: -.4rem;
+      top: 5rem;
+      width: 27%;
+      img{
+        max-width: 100%;
+        height: auto;
+      }
+    }
+    .top-texts{
+      width: calc(100% - 27%);
+      margin-left: 27%;
+    }
+    .bottom-texts{
+      margin-top: 2rem;
+      margin-bottom: 3rem;
+    }
+    .under-line{
+      margin-bottom: 3rem;
+    }
+  }
+  .map-container{
+    margin-bottom: 4rem;
+    .audio{
+      margin-top: 2rem;
+    }
+    .map{
+      height: 340px;
+    }
+    .adina-map{
+      height: 290px;
+    }
+    .leonie-map{
+      height: 340px;
+    }
+    .ramaela-map{
+      height: 250px;
+    }
+    .rebeca-map{
+      height: 330px;
+    }
+    .soumaya-map{
+      height: 270px;
+    }
+  }
+  //Responsive for Footer
+  footer{
+    .insta-logo{
+      width: 100%;
+      padding: 0 1rem;
+      .insta{
+        .icon-wrapper{
+          width: 28px;
+        }
+      }
+      .logo{
+        width: 60px;
+      }
+    }
+    .copyrights{
+      margin-top: 1rem;
+      font-size: .8rem;
+    }
+  }
+  //Responsive for Contact Page
+  .contact-wrapper{
+    margin-bottom: 10rem;
+    h3{
+      margin-top: 3rem;
+    }
+    .info-link{
+      color: $black;
+    }
+    .insta-link{
+      margin-top: 1rem;
+      a{
+        display: block;
+        width: 40px;
+      }
+    }
+  }
+}
+//Responsive for extra small Devices
+@media (max-width: 575.98px) {
+  h1{
+    font-size: 2rem;
+  }
+  h2{
+    font-size: 1.6rem;
+  }
+  h3{
+    font-size: 1.3rem;
+  }
+  .headings{
+    &::after{
+      bottom: 2px;
+    }
+  }
+  .map-container{
+    .map{
+      height: 280px;
+    }
+    .adina-map{
+      height: 210px;
+    }
+    .leonie-map{
+      height: 280px;
+    }
+    .ramaela-map{
+      height: 200px;
+    }
+    .rebeca-map{
+      height: 300px;
+    }
+    .soumaya-map{
+      height: 220px;
+    }
+  }
+  //Responsive for Header
+  header{
+    .menu{
+      width: 220px;
+      .links-container{
+        padding-left: 1rem;
+        #close-menu{
+          top: 0.2rem;
+          right: 1rem;
+          font-size: 2.4rem;
+        }
+      }
+    }
+  }
+  //Responsive for Footer
+  footer{
+    .insta-logo{
+      .insta{
+        .icon-wrapper{
+          width: 20px;
+        }
+      }
+      .logo{
+        width: 40px;
+      }
+    }
+  }
+}
+@media (max-width: 513.98px) {
+  .map-container{
+    .rebeca-map{
+      height: 270px;
+    }
+  }
+}
+@media (max-width: 465.98px) {
+  .map-container{
+    .map{
+      height: 240px;
+    }
+    .rebeca-map{
+      height: 230px;
+    }
+    .adina-map{
+      height: 170px;
+    }
+    .leonie-map{
+      height: 237px;
+    }
+    .ramaela-map{
+      height: 170px;
+    }
+    .soumaya-map{
+      height: 180px;
+    }
+  }
+}
+@media (max-width: 400.98px) {
+  .map-container{
+    .map{
+      height: 180px;
+    }
+    .rebeca-map{
+      height: 180px;
+    }
+    .adina-map{
+      height: 150px;
+    }
+    .leonie-map{
+      height: 180px;
+    }
+    .ramaela-map{
+      height: 130px;
+    }
+    .soumaya-map{
+      height: 130px;
+    }
+  }
+}
