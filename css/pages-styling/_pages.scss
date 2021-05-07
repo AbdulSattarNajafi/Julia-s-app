@@ -1,10 +1,12 @@
+//Styling for Adina/Leonie/Ramaela/Rebecca/Soumaya/Uberuns/ pages
+
 article{
   position: relative;
   .img-container{
     position: absolute;
     left: -3rem;
-    top: 6rem;
-    width: 24%;
+    top: 10rem;
+    width: 33%;
     z-index: -1;
     img{
       max-width: 100%;
@@ -12,11 +14,13 @@ article{
     }
   }
   .top-texts{
-    width: 62%;
+    width: calc(80% - 27%);
     margin: auto;
+    margin-left: 27%;
     margin-top: 4rem;
   }
   .bottom-texts{
+    width: 80%;
     margin: 5rem 0 5rem 0;
   }
   .under-line{
@@ -54,6 +58,6 @@ article{
     height: 520px;
   }
   .soumaya-map{
-    height: 520px;
+    height: 460px;
   }
 }

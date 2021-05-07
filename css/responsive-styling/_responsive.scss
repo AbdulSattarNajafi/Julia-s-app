@@ -1,3 +1,4 @@
+//Responsvie for the maps
 @media (max-width: 1271px) {
   .map-container{
     .soumaya-map{
@@ -5,6 +6,7 @@
     }
   }
 }
+//Responsvie for the maps
 @media (max-width: 1251px) {
   .map-container{
     .ramaela-map{
@@ -12,22 +14,14 @@
     }
   }
 }
+//Start Responsive for all the pages
 @media (max-width: 1199.98px) {
   article{
-    .img-container{
-      left: -2.6rem;
-      top: 8rem;
-      width: 24%;
-      img{
-        max-width: 100%;
-        height: auto;
-      }
-    }
     .top-texts{
-      width: calc(100% - 20%);
-      margin-left: 20%;
+      width: calc(100% - 27%);
     }
     .bottom-texts{
+      width: 100%;
       margin-top: 3rem;
     }
   }
@@ -39,7 +33,12 @@
       height: 400px;
     }
   }
+  //Responsive for Home page
+  .home-section .links-wrapper{
+    bottom: -6rem;
+  }
 }
+//Responsvie for the maps
 @media (max-width: 1045px) {
   .map-container{
     .rebeca-map{
@@ -85,20 +84,19 @@
   //Responsive for Pages
   article{
     .img-container{
-      left: -.4rem;
-      top: 5rem;
-      width: 27%;
+      position: relative;
+      left: 0;
+      top: 1.4rem;
+      width: 100%;
+      display: flex;
+      justify-content: center;
       img{
-        max-width: 100%;
-        height: auto;
+        width: 50%;
       }
     }
     .top-texts{
-      width: calc(100% - 27%);
-      margin-left: 27%;
-    }
-    .bottom-texts{
-      margin-top: 3rem;
+      width: 100%;
+      margin-left: 0;
     }
   }
   .map-container{
@@ -110,7 +108,23 @@
       height: 334px;
     }
   }
+  //Responsive for Home page
+  .home-section{
+    .links-wrapper{
+      bottom: -3rem;
+      width: 40%;
+      .links-lists{
+        li a{
+          font-size: 2.8rem;
+        }
+      }
+      .insta-icon{
+        width: 50px;
+      }
+    }
+  }
 }
+//Responsvie for the maps
 @media (max-width: 846px) {
   .map-container{
     .leonie-map{
@@ -127,20 +141,26 @@
 //Responsive for small Devices
 @media (max-width: 767.98px) {
   body{
-    font-size: 1rem;
+    font-size: 1.3rem;
   }
   h1{
-    font-size: 2.4rem;
+    font-size: 4rem;
   }
   h2{
-    font-size: 1.8rem;
+    font-size: 2.6rem;
   }
   h3{
-    font-size: 1.5rem;
+    font-size: 2.2rem;
   }
   .main{
     width: 100%;
     padding: 0.5rem 1rem;
+  }
+  .headings{
+    &::after{
+      height: 3px;
+      bottom: 2px;
+    }
   }
   //Responsive for Header
   header{
@@ -148,41 +168,38 @@
     .top-header{
       height: 50px;
       .toggle-container button {
-        font-size: 2rem;
+        font-size: 2.4rem;
         font-weight: 600;
+        margin-bottom: 1.8rem;
       }
       .logo-container{
         width: 80px;
       }
     }
     .menu{
-      width: 260px;
+      top: .8rem;
+      width: 380px;
       .links-container{
-        padding-top: 1rem;
+        padding-top: 4rem;
         padding-left: 2rem;
         #close-menu{
           top: 0.2rem;
           right: 1rem;
-          font-size: 2.4rem;
+          font-size: 4rem;
+        }
+        li{
+          .menu-llink{
+            font-size: 1.4rem;
+          }
+          .white-links{
+            font-size: 1.4rem;
+          }
         }
       }
     }
   }
   //Responsive for Pages
   article{
-    .img-container{
-      left: -.4rem;
-      top: 5rem;
-      width: 27%;
-      img{
-        max-width: 100%;
-        height: auto;
-      }
-    }
-    .top-texts{
-      width: calc(100% - 27%);
-      margin-left: 27%;
-    }
     .bottom-texts{
       margin-top: 2rem;
       margin-bottom: 3rem;
@@ -242,6 +259,7 @@
     }
     .info-link{
       color: $black;
+      font-size: 2.2rem;
     }
     .insta-link{
       margin-top: 1rem;
@@ -251,21 +269,47 @@
       }
     }
   }
+  //Responsive for Home page
+  .home-section{
+    .links-wrapper{
+      .links-lists{
+        li a{
+          font-size: 2.2rem;
+        }
+      }
+      .insta-icon{
+        width: 40px;
+      }
+    }
+  }
 }
 //Responsive for extra small Devices
 @media (max-width: 575.98px) {
   h1{
-    font-size: 2rem;
+    font-size: 2.4rem;
   }
   h2{
-    font-size: 1.6rem;
+    font-size: 2rem;
   }
   h3{
-    font-size: 1.3rem;
+    font-size: 1.8rem;
   }
   .headings{
     &::after{
+      height: 2px;
       bottom: 2px;
+    }
+  }
+  article{
+    .top-texts{
+      margin-top: 1rem;
+    }
+    .bottom-texts{
+      margin-top: 2rem;
+      margin-bottom: 3rem;
+    }
+    .under-line{
+      margin-bottom: 3rem;
     }
   }
   .map-container{
@@ -290,14 +334,20 @@
   }
   //Responsive for Header
   header{
+    .top-header{
+      .toggle-container button {
+        font-size: 1.8rem;
+      }
+    }
     .menu{
-      width: 220px;
+      width: 260px;
       .links-container{
-        padding-left: 1rem;
+        padding-top: 2.4rem;
+        padding-left: 1.4rem;
         #close-menu{
           top: 0.2rem;
           right: 1rem;
-          font-size: 2.4rem;
+          font-size: 3rem;
         }
       }
     }
@@ -314,8 +364,34 @@
         width: 40px;
       }
     }
+    .copyrights{
+      font-size: .7rem;
+    }
+  }
+  //Responsive for Contact Page
+  .contact-wrapper{
+    .info-link{
+      font-size: 1.8rem;
+    }
+  }
+  //Responsive for Home page
+  .home-section{
+    .links-wrapper{
+      bottom: -3rem;
+      justify-content: space-between;
+      width: 50%;
+      .links-lists{
+        li a{
+          font-size: 1.4rem;
+        }
+      }
+      .insta-icon{
+        width: 30px;
+      }
+    }
   }
 }
+//Responsvie for the maps
 @media (max-width: 513.98px) {
   .map-container{
     .rebeca-map{
@@ -324,6 +400,9 @@
   }
 }
 @media (max-width: 465.98px) {
+  header .menu{
+    width: 230px;
+  }
   .map-container{
     .map{
       height: 240px;

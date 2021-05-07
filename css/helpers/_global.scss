@@ -15,7 +15,7 @@ body {
   background-color: $white;
   width: 100%;
   min-height: 100vh;
-  font-family: serif;
+  font-family: termina, sans-serif;
   font-size: 1.56rem;
   line-height: 1.3;
   color: $black;
@@ -29,16 +29,18 @@ body {
   margin: 0 auto;
 }
 h1{
-  font-size: 3rem;
-  font-weight: 400;
+  font-size: 6.25rem;
+  line-height: 1;
+  font-weight: 300;
 }
 h2{
-  font-size: 2rem;
+  font-size: 3.75rem;
+  line-height: 1;
   font-weight: 400;
 }
 h3{
-  font-size: 1.8rem;
-  font-weight: 900;
+  font-size: 3rem;
+  font-weight: 600;
 }
 img{
   max-width: 100%;
@@ -71,7 +73,7 @@ button:hover {
     left: 0;
     bottom: 4px;
     width: 100%;
-    height: 2px;
+    height:4px;
     background: $black;
   }
 }
