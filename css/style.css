@@ -491,15 +491,12 @@ article .under-line {
     left: 0;
     top: 1.4rem;
     width: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
   }
   article .img-container img {
+    display: block;
     width: 50%;
+    height: auto;
+    margin: auto;
   }
   article .top-texts {
     width: 100%;
