@@ -1,125 +1,125 @@
 //Responsvie for the maps
 @media (max-width: 1271px) {
-  .map-container{
-    .soumaya-map{
+  .map-container {
+    .soumaya-map {
       height: 480px;
     }
   }
 }
 //Responsvie for the maps
 @media (max-width: 1251px) {
-  .map-container{
-    .ramaela-map{
+  .map-container {
+    .ramaela-map {
       height: 400px;
     }
   }
 }
 //Start Responsive for all the pages
 @media (max-width: 1199.98px) {
-  article{
-    .top-texts{
+  article {
+    .top-texts {
       width: calc(100% - 27%);
     }
-    .bottom-texts{
+    .bottom-texts {
       width: 100%;
       margin-top: 3rem;
     }
   }
-  .map-container{
-    .ramaela-map{
+  .map-container {
+    .ramaela-map {
       height: 360px;
     }
-    .soumaya-map{
+    .soumaya-map {
       height: 400px;
     }
   }
   //Responsive for Home page
-  .home-section .links-wrapper{
+  .home-section .links-wrapper {
     bottom: -6rem;
   }
 }
 //Responsvie for the maps
 @media (max-width: 1045px) {
-  .map-container{
-    .rebeca-map{
+  .map-container {
+    .rebeca-map {
       height: 500px;
     }
   }
 }
 //Responsive for Medium Screen Sizes
 @media (max-width: 991.98px) {
-  .main{
+  .main {
     width: 100%;
     padding: 0 1.4rem;
   }
   //Responsive for Header
-  header{
-    .top-header{
+  header {
+    .top-header {
       height: 100px;
-      .logo-container{
+      .logo-container {
         width: 150px;
       }
     }
   }
   //Responsive for Footer
-  footer{
+  footer {
     padding-top: 1.4rem;
-    .insta-logo{
+    .insta-logo {
       width: 100%;
       padding: 0 1.4rem;
-      .insta{
-        .icon-wrapper{
+      .insta {
+        .icon-wrapper {
           width: 50px;
         }
       }
-      .logo{
+      .logo {
         width: 90px;
         text-align: right;
       }
     }
-    .copyrights{
+    .copyrights {
       margin-top: 1.4rem;
     }
   }
   //Responsive for Pages
-  article{
-    .img-container{
+  article {
+    .img-container {
       position: relative;
       left: 0;
       top: 1.4rem;
       width: 100%;
-      img{
+      img {
         display: block;
         width: 50%;
         height: auto;
         margin: auto;
       }
     }
-    .top-texts{
+    .top-texts {
       width: 100%;
       margin-left: 0;
     }
   }
-  .map-container{
+  .map-container {
     margin-bottom: 6rem;
-    .adina-map{
+    .adina-map {
       height: 380px;
     }
-    .ramaela-map{
+    .ramaela-map {
       height: 334px;
     }
   }
   //Responsive for Home page
-  .home-section{
-    .links-wrapper{
+  .home-section {
+    .links-wrapper {
       bottom: -3rem;
       width: 40%;
-      .links-lists{
-        li a{
+      .links-lists {
+        li a {
           font-size: 2.8rem;
         }
       }
-      .insta-icon{
+      .insta-icon {
         width: 50px;
       }
     }
@@ -127,72 +127,72 @@
 }
 //Responsvie for the maps
 @media (max-width: 846px) {
-  .map-container{
-    .leonie-map{
+  .map-container {
+    .leonie-map {
       height: 470px;
     }
-    .rebeca-map{
+    .rebeca-map {
       height: 440px;
     }
-    .soumaya-map{
+    .soumaya-map {
       height: 360px;
     }
   }
 }
 //Responsive for small Devices
 @media (max-width: 767.98px) {
-  body{
+  body {
     font-size: 1.3rem;
   }
-  h1{
+  h1 {
     font-size: 4rem;
   }
-  h2{
+  h2 {
     font-size: 2.6rem;
   }
-  h3{
+  h3 {
     font-size: 2.2rem;
   }
-  .main{
+  .main {
     width: 100%;
     padding: 0.5rem 1rem;
   }
-  .headings{
-    &::after{
+  .headings {
+    &::after {
       height: 3px;
       bottom: 2px;
     }
   }
   //Responsive for Header
-  header{
-    padding: .5rem 1rem;
-    .top-header{
+  header {
+    padding: 0.5rem 1rem;
+    .top-header {
       height: 50px;
       .toggle-container button {
         font-size: 2.4rem;
         font-weight: 600;
         margin-bottom: 1.8rem;
       }
-      .logo-container{
+      .logo-container {
         width: 80px;
       }
     }
-    .menu{
-      top: .8rem;
+    .menu {
+      top: 0.8rem;
       width: 380px;
-      .links-container{
+      .links-container {
         padding-top: 4rem;
         padding-left: 2rem;
-        #close-menu{
+        #close-menu {
           top: 0.2rem;
           right: 1rem;
           font-size: 4rem;
         }
-        li{
-          .menu-llink{
+        li {
+          .menu-llink {
             font-size: 1.4rem;
           }
-          .white-links{
+          .white-links {
             font-size: 1.4rem;
           }
         }
@@ -200,85 +200,93 @@
     }
   }
   //Responsive for Pages
-  article{
-    .bottom-texts{
+  article {
+    .bottom-texts {
       margin-top: 2rem;
       margin-bottom: 3rem;
     }
-    .under-line{
+    .under-line {
       margin-bottom: 3rem;
     }
   }
-  .map-container{
+  .map-container {
     margin-bottom: 4rem;
-    .audio{
+    .audio {
       margin-top: 2rem;
     }
-    .map{
+    .map {
       height: 340px;
     }
-    .adina-map{
+    .adina-map {
       height: 290px;
     }
-    .leonie-map{
+    .leonie-map {
       height: 340px;
     }
-    .ramaela-map{
+    .ramaela-map {
       height: 250px;
     }
-    .rebeca-map{
+    .rebeca-map {
       height: 330px;
     }
-    .soumaya-map{
+    .soumaya-map {
       height: 270px;
     }
   }
   //Responsive for Footer
-  footer{
-    .insta-logo{
+  footer {
+    .insta-logo {
       width: 100%;
       padding: 0 1rem;
-      .insta{
-        .icon-wrapper{
+      .insta {
+        .icon-wrapper {
           width: 28px;
         }
       }
-      .logo{
+      .logo {
         width: 60px;
       }
     }
-    .copyrights{
+    .copyrights {
       margin-top: 1rem;
-      font-size: .8rem;
+      font-size: 0.8rem;
     }
   }
   //Responsive for Contact Page
-  .contact-wrapper{
+  .contact-wrapper {
     margin-bottom: 10rem;
-    h3{
+    h3 {
       margin-top: 3rem;
     }
-    .info-link{
+    .info-link {
       color: $black;
       font-size: 2.2rem;
     }
-    .insta-link{
+    .insta-link {
       margin-top: 1rem;
-      a{
+      a {
         display: block;
         width: 40px;
       }
     }
   }
   //Responsive for Home page
-  .home-section{
-    .links-wrapper{
-      .links-lists{
-        li a{
+  .home-section {
+    .home-image {
+      .display-destop {
+        display: none;
+      }
+      .display-mobile {
+        display: block;
+      }
+    }
+    .links-wrapper {
+      .links-lists {
+        li a {
           font-size: 2.2rem;
         }
       }
-      .insta-icon{
+      .insta-icon {
         width: 40px;
       }
     }
@@ -286,66 +294,66 @@
 }
 //Responsive for extra small Devices
 @media (max-width: 575.98px) {
-  h1{
+  h1 {
     font-size: 2.4rem;
   }
-  h2{
+  h2 {
     font-size: 2rem;
   }
-  h3{
+  h3 {
     font-size: 1.8rem;
   }
-  .headings{
-    &::after{
+  .headings {
+    &::after {
       height: 2px;
       bottom: 2px;
     }
   }
-  article{
-    .top-texts{
+  article {
+    .top-texts {
       margin-top: 1rem;
     }
-    .bottom-texts{
+    .bottom-texts {
       margin-top: 2rem;
       margin-bottom: 3rem;
     }
-    .under-line{
+    .under-line {
       margin-bottom: 3rem;
     }
   }
-  .map-container{
-    .map{
+  .map-container {
+    .map {
       height: 280px;
     }
-    .adina-map{
+    .adina-map {
       height: 210px;
     }
-    .leonie-map{
+    .leonie-map {
       height: 280px;
     }
-    .ramaela-map{
+    .ramaela-map {
       height: 200px;
     }
-    .rebeca-map{
+    .rebeca-map {
       height: 300px;
     }
-    .soumaya-map{
+    .soumaya-map {
       height: 220px;
     }
   }
   //Responsive for Header
-  header{
-    .top-header{
+  header {
+    .top-header {
       .toggle-container button {
         font-size: 1.8rem;
       }
     }
-    .menu{
+    .menu {
       width: 260px;
-      .links-container{
+      .links-container {
         padding-top: 2.4rem;
         padding-left: 1.4rem;
-        #close-menu{
+        #close-menu {
           top: 0.2rem;
           right: 1rem;
           font-size: 3rem;
@@ -354,39 +362,39 @@
     }
   }
   //Responsive for Footer
-  footer{
-    .insta-logo{
-      .insta{
-        .icon-wrapper{
+  footer {
+    .insta-logo {
+      .insta {
+        .icon-wrapper {
           width: 20px;
         }
       }
-      .logo{
+      .logo {
         width: 40px;
       }
     }
-    .copyrights{
-      font-size: .7rem;
+    .copyrights {
+      font-size: 0.7rem;
     }
   }
   //Responsive for Contact Page
-  .contact-wrapper{
-    .info-link{
+  .contact-wrapper {
+    .info-link {
       font-size: 1.8rem;
     }
   }
   //Responsive for Home page
-  .home-section{
-    .links-wrapper{
+  .home-section {
+    .links-wrapper {
       bottom: -3rem;
       justify-content: space-between;
       width: 50%;
-      .links-lists{
-        li a{
+      .links-lists {
+        li a {
           font-size: 1.4rem;
         }
       }
-      .insta-icon{
+      .insta-icon {
         width: 30px;
       }
     }
@@ -394,55 +402,55 @@
 }
 //Responsvie for the maps
 @media (max-width: 513.98px) {
-  .map-container{
-    .rebeca-map{
+  .map-container {
+    .rebeca-map {
       height: 270px;
     }
   }
 }
 @media (max-width: 465.98px) {
-  header .menu{
+  header .menu {
     width: 230px;
   }
-  .map-container{
-    .map{
+  .map-container {
+    .map {
       height: 240px;
     }
-    .rebeca-map{
+    .rebeca-map {
       height: 230px;
     }
-    .adina-map{
+    .adina-map {
       height: 170px;
     }
-    .leonie-map{
+    .leonie-map {
       height: 237px;
     }
-    .ramaela-map{
+    .ramaela-map {
       height: 170px;
     }
-    .soumaya-map{
+    .soumaya-map {
       height: 180px;
     }
   }
 }
 @media (max-width: 400.98px) {
-  .map-container{
-    .map{
+  .map-container {
+    .map {
       height: 180px;
     }
-    .rebeca-map{
+    .rebeca-map {
       height: 180px;
     }
-    .adina-map{
+    .adina-map {
       height: 150px;
     }
-    .leonie-map{
+    .leonie-map {
       height: 180px;
     }
-    .ramaela-map{
+    .ramaela-map {
       height: 130px;
     }
-    .soumaya-map{
+    .soumaya-map {
       height: 130px;
     }
   }

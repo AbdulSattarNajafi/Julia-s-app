@@ -65,6 +65,11 @@ button {
 button:hover {
   color: $pink-color;
 }
+button:focus{
+  box-shadow: none;
+  background: transparent;
+  outline: none;
+}
 .headings{
   position: relative;
   &::after{
