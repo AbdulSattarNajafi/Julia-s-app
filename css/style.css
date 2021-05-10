@@ -147,10 +147,20 @@ header .top-header .logo-container img {
 }
 
 header .top-header .toggle-container button {
-  font-size: 3rem;
-  font-weight: 900;
-  line-height: 0;
-  margin-bottom: 3rem;
+  position: relative;
+  width: 80px;
+  height: 18px;
+  margin-bottom: 1rem;
+}
+
+header .top-header .toggle-container button::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 18px;
+  background-color: #000;
 }
 
 header .menu {
