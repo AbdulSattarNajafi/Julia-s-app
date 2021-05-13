@@ -1,7 +1,7 @@
 footer {
   width: 100%;
   height: auto;
-  padding: 2rem 0 .7rem 0;
+  padding: 1.4rem 0 .7rem 0;
   margin-top: auto;
   background-color: $footer-color;
   .insta-logo {
@@ -14,6 +14,7 @@ footer {
       a{
         display: block;
         color: $white;
+        font-size: 1.2rem;
         transition: all .4s ease;
         &:first-child{
           margin-bottom: .4rem;
@@ -23,17 +24,26 @@ footer {
         }
       }
       .icon-wrapper{
-        width: 69px;
+        svg{
+          width: 40px;
+          height: 40px;
+          fill: $white;
+        }
       }
     }
     .logo{
+      text-align: right;
       margin-top: 2px;
+      img{
+        max-width: 52%;
+        height: auto;
+      }
     }
   }
   .copyrights {
     font-size: 1rem;
     color: $white;
     text-align: center;
-    margin-top: 2rem;
+    margin-top: .6rem;
   }
 }
